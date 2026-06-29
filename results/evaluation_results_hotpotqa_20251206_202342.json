@@ -1,0 +1,27 @@
+{
+  "dataset": "hotpotqa",
+  "num_examples": 100,
+  "timestamp": "2025-12-06T20:17:01.985991",
+  "qa_metrics": {
+    "em": 0.0,
+    "f1": 0.09392575406014082,
+    "count": 100,
+    "total_queries": 100,
+    "avg_retrieval_time": 0.44082988262176515,
+    "avg_reranking_time": 0.8350692820549012,
+    "avg_generation_time": 0.7760599422454834,
+    "avg_total_time": 2.0522938656806944,
+    "avg_passages_used": 10.0,
+    "avg_tokens": 3277.61,
+    "total_tokens": 327761,
+    "estimated_cost_usd": 0.16836950000000012
+  },
+  "ragas_metrics": {
+    "faithfulness": 0.8325,
+    "answer_relevancy": 0.8553928546170033,
+    "context_precision": 0.05490752551020408,
+    "context_recall": 0.5334761904761904,
+    "overall": 0.5690691426508494,
+    "count": 100
+  }
+}
